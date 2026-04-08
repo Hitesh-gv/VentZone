@@ -1,0 +1,20 @@
+{
+  "name": "ventzone2",
+  "version": "1.0.0",
+  "description": "VentZone Mental Health App",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "helmet": "^7.1.0",
+    "compression": "^1.7.4",
+    "dotenv": "^16.3.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "stripe": "^14.0.0"
+  },
+  "engines": { "node": ">=18.0.0" }
+}
